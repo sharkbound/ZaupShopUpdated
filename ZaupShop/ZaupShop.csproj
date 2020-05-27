@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA8C3E6B-D2A3-4E44-8C79-EA1A80F4B967}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ZaupShop</RootNamespace>
+    <AssemblyName>ZaupShop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+      <HintPath>lib\sql\I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+      <HintPath>lib\sql\I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <HintPath>lib\sql\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Rocket.API, Version=2.6.4.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\Rocket.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Rocket.Core, Version=2.4.8.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\Rocket.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Rocket.Unturned, Version=4.9.3.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\Rocket.Unturned.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>lib\sql\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>lib\sql\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>lib\sql\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Uconomy, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\Uconomy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>lib\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandBuy.cs" />
+    <Compile Include="CommandCost.cs" />
+    <Compile Include="CommandSell.cs" />
+    <Compile Include="CommandShop.cs" />
+    <Compile Include="DatabaseMgr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZaupShop.cs" />
+    <Compile Include="ZaupShopConfiguration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\Assembly-CSharp-firstpass.dll" />
+    <Content Include="lib\Assembly-CSharp.dll" />
+    <Content Include="lib\Rocket.API.dll" />
+    <Content Include="lib\Rocket.Core.dll" />
+    <Content Include="lib\Rocket.Unturned.dll" />
+    <Content Include="lib\sql\I18N.dll" />
+    <Content Include="lib\sql\I18N.West.dll" />
+    <Content Include="lib\sql\MySql.Data.dll" />
+    <Content Include="lib\sql\System.Data.dll" />
+    <Content Include="lib\sql\System.Management.dll" />
+    <Content Include="lib\sql\System.Transactions.dll" />
+    <Content Include="lib\Uconomy.dll" />
+    <Content Include="lib\UnityEngine.CoreModule.dll" />
+    <Content Include="lib\UnityEngine.dll" />
+    <Content Include="lib\UnityEngine.PhysicsModule.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

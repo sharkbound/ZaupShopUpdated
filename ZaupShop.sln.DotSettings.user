@@ -1,0 +1,35 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CAssembly_002DCSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CAssembly_002DCSharp_002Dfirstpass_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CNoVehicleBaseSpawns_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CRocket_002EAPI_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CRocket_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CRocket_002EUnturned_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005Csql_005CI18N_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005Csql_005CI18N_002EWest_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005Csql_005CMySql_002EData_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005Csql_005CSystem_002EData_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005Csql_005CSystem_002EManagement_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005Csql_005CSystem_002ETransactions_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CUconomy_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CUnityEngine_002ECoreModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CUnityEngine_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CRocketPluginPrivate_005CZaupShopVehiclePatch_005CZaupShop_005Clib_005CUnityEngine_002EPhysicsModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CAssembly_002DCSharp_002Dfirstpass_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CAssembly_002DCSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CRocket_002EAPI_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CRocket_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CRocket_002EUnturned_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005Csql_005CI18N_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005Csql_005CI18N_002EWest_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005Csql_005CMySql_002EData_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005Csql_005CSystem_002EData_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005Csql_005CSystem_002EManagement_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005Csql_005CSystem_002ETransactions_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CUconomy_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CUnityEngine_002ECoreModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CUnityEngine_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005Cgit_005CZaupShopUpdated_005CZaupShop_005Clib_005CUnityEngine_002EPhysicsModule_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="D:\git\RocketPluginPrivate\ZaupShopVehiclePatch\ZaupShop\lib\sql\System.Management.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
