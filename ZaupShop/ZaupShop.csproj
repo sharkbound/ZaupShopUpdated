@@ -92,6 +92,7 @@
     <Compile Include="ZaupShopConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="copyfile.bat" />
     <Content Include="lib\Assembly-CSharp-firstpass.dll" />
     <Content Include="lib\Assembly-CSharp.dll" />
     <Content Include="lib\Rocket.API.dll" />

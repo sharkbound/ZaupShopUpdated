@@ -424,7 +424,7 @@ namespace ZaupShop
             ushort id;
             if (!ushort.TryParse(components[0], out id))
             {
-                var array = Assets.find((EAssetType) 1);
+                var array = Assets.find(EAssetType.ITEM);
                 foreach (var asset in array)
                 {
                     var searchAsset = (ItemAsset) asset;
@@ -445,9 +445,10 @@ namespace ZaupShop
 
             if (text == null && id != 0)
             {
-                itemAsset = (ItemAsset) Assets.find((EAssetType) 1, id);
+                itemAsset = (ItemAsset) Assets.find(EAssetType.ITEM, id);
                 text = itemAsset.itemName;
             }
+
 
             if (playerid.Inventory.has(id) == null)
             {
@@ -464,6 +465,7 @@ namespace ZaupShop
                 return;
             }
 
+
             if (itemAsset.amount > 1)
             {
                 var num = list.Aggregate(0, (current, inventorySearch) => current + inventorySearch.jar.item.amount);
@@ -475,6 +477,7 @@ namespace ZaupShop
                     return;
                 }
             }
+
 
             var itemBuyPrice = Instance.ShopDB.GetItemBuyPrice(id);
             if (itemBuyPrice <= 0.00m)
